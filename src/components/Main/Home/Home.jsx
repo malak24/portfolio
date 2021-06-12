@@ -1,17 +1,16 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
-
+import Card from '../../SmallComponents/Card/Card'
+import ham1 from "../../../assets/ham1.jpg";
 import "./Home.scss";
-
 
 class Home extends Component {
   render() {
     return (
-      <aside id="sidebar" className="menu">
-      </aside>
+      <div>
+        <Card />
+      </div>
     );
   }
 }
 
 export default Home;
-

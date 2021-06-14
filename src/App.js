@@ -9,38 +9,113 @@ class App extends Component {
     super();
 
     this.state = {
-      cards: [
-        ["../../../assets/ham1.jpg", "This is my cute little hamster Peanut!"],
-        ["../../../assets/ham2.jpg", "Another picture of Peanut..."],
-        ["../../../assets/animal2.jpg", "I also LOVE animals"],
-        ["../../../assets/animal1.jpg", "And since cats are animals ..."],
-        ["../../../assets/ham2.jpg", "But first coffee.."],
-        ["../../../assets/ham2.jpg", "I like collecting meaningful mugs"],
-        ["../../../assets/ham2.jpg", "The struggle is real!"],
-        ["../../../assets/ham2.jpg", "I live in Toronto"],
-        ["../../../assets/ham2.jpg", "I was born in France"],
-        ["../../../assets/ham2.jpg", "And lived close to Paris"],
-        ["../../../assets/ham2.jpg", "When life throws thorns...hunt for roses"],
-        ["../../../assets/ham2.jpg", "I collect roses ... virtually"],
-        ["../../../assets/ham2.jpg", "Reading is to mind what exercise is to the body",],
-        ["../../../assets/ham2.jpg", "In the long run, you only hit what you aim at!",],
-        ["../../../assets/ham2.jpg", "I cook, what's your superpower?"],
-        ["../../../assets/ham2.jpg", "And for the fun time, I embroider"],
-        ["../../../assets/ham2.jpg", "I learn languages because their sounds tickle my ears",],
-        ["../../../assets/ham2.jpg", "And to frame memories, I take pictures"],
-        ["../../../assets/ham2.jpg", "Nature is breathtaking"],
-        ["../../../assets/ham2.jpg", "I love to watch my plants grow a bit everyday just like I do",],
-        ["../../../assets/ham2.jpg", "This beauty can't be real!"],
-        ["../../../assets/ham2.jpg", "One more flower picture"],
-        ["../../../assets/ham2.jpg", "I promise, this is the last!"],
-        ["../../../assets/ham2.jpg", "Not all classrooms have 4 walls"],
-        ["../../../assets/ham2.jpg", "Learning doesn't stop after graduation"],
-      ]
+      cards: {
+        1:
+        {
+          'src': "../../../assets/ham1.jpg",
+          'text': "This is my cute little hamster Peanut!"
+        },
+        2:
+        {
+          'src': "../../../assets/ham1.jpg",
+          'text': "Another picture of Peanut..."
+        },
+        3: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "I also LOVE animals"
+        },
+        4: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "And since cats are animals ..."
+        },
+        5: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "But first coffee.."
+        },
+        6: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "I like collecting meaningful mugs"
+        },
+        7: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "The struggle is real!"
+        },
+        8: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "I live in Toronto"
+        },
+        9: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "I was born in France"
+        },
+        10: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "And lived close to Paris"
+        },
+        11: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "When life throws thorns...hunt for roses"
+        },
+        12: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "I collect roses ... virtually"
+        },
+        13: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "Reading is to mind what exercise is to the body"
+        },
+        14: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "In the long run, you only hit what you aim at!"
+        },
+        15: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "I cook, what's your superpower?"
+        },
+        16: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "And for the fun time, I embroider"
+        },
+        17: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "I learn languages because their sounds tickle my ears"
+        },
+        18: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "And to frame memories, I take pictures"
+        },
+        19: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "Nature is breathtaking"
+        },
+        20: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "I love to watch my plants grow a bit everyday just like I do"
+        },
+        21: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "This beauty can't be real!"
+        },
+        22: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "One more flower picture"
+        },
+        23: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "I promise, this is the last!"
+        },
+        24: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "Not all classrooms have 4 walls"
+        },
+        25: {
+          'src': "../../../assets/ham1.jpg",
+          'text': "Learning doesn't stop after graduation"
+        },
+      },
     };
   }
 
-
-  
     // componentDidMount() {
     //   this.getData();
     // }
@@ -49,11 +124,11 @@ class App extends Component {
       return (
         <div className="app">
           <Sidebar />
-          <Main />
+          <Main cards={this.state.cards}/>
         </div>
-      );
+      )
     }
 
-  }
+}
 
 export default App;

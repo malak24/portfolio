@@ -3,7 +3,7 @@ import { NavLink, BrowserRouter as Router } from "react-router-dom";
 
 import "./Sidebar.scss";
 
-import home from "../../assets/home.svg";
+import profile from "../../assets/profile.png";
 import experience from "../../assets/experience.svg";
 import projects from "../../assets/projects.svg";
 import skills from "../../assets/skills.svg";
@@ -15,16 +15,12 @@ class Sidebar extends Component {
   render() {
     return (
       <Router>
-        <aside id="sidebar" className="menu">
-          <div className="name">
-            <p className="first-name">MALAK</p>
-            <p className="last-name">KATAIE</p>
-          </div>
+        <aside className="sidebar">
           <ul className="menu-list">
             <li className="list-items">
-              <img className="list-icons" src={home}></img>
+              <img className="list-icons" src={profile}></img>
               <NavLink to="/" className="items-title" to="/">
-                Home
+                About me
               </NavLink>
             </li>
 

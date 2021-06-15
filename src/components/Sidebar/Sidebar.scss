@@ -1,46 +1,35 @@
-#sidebar {
-  .menu {
-    background-color: rgb(240, 240, 240);
-    width: 13rem;
-    height: 100%;
-  }
+.sidebar {
+  background-color: #fdc44a;
+}
 
-  .name {
-    font-size: 1.8rem;
-    width: 13rem;
-    padding: 0.8rem 0 0.8rem 3.5rem;
-    background-color: rgb(255, 174, 0);
-  }
+.menu-list > li:first-child {
+  margin-top: 1rem;
+}
 
-  .menu-list > li:first-child {
-    margin-top: 1rem;
-  }
+.items-title:hover {
+  background-color: unset;
+}
 
-  .items-title:hover {
-    background-color: unset;
-  }
+.list-items {
+  display: flex;
+  flex-direction: row;
+  height: 4rem;
+  font-size: 1rem;
+  padding: 0.3rem 0.5rem;
+  width: 13rem;
+  padding-left: 1.5rem;
 
-  .list-items {
-    display: flex;
-    flex-direction: row;
-    height: 4rem;
-    font-size: 1.15rem;
-    padding: 0.5rem 0.5rem;
-    width: 13rem;
-    padding-left: 1.5rem;
-
-    &:hover {
-      background-color: #ffdd92;
-    }
+  &:hover {
+    background-color: #ffdd92;
   }
+}
 
-  .items-title {
-    padding-top: 0.8rem;
-  }
+.items-title {
+  padding-top: 0.8rem;
+}
 
-  .list-icons {
-    height: 2.4rem;
-    width: 2.4rem;
-    margin-top: 0.25rem;
-  }
+.list-icons {
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-top: 0.25rem;
 }

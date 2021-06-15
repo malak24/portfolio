@@ -13,16 +13,7 @@ class Main extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route
-            exact path="/"
-            render={(props) => (
-              <Home
-                {...props}
-                cards={this.props.cards}
-              />
-            )}
-          />
-
+          <Route exact path="/" component = {Home}/>
           <Route exact path="/experience" component={Experience}></Route>
           <Route exact path="/projects" component={Projects}></Route>
           <Route exact path="/skills" component={Skills}></Route>

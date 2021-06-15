@@ -6,4 +6,15 @@ body {
 
 .app {
   display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  height: 3rem;
+  width: 100%;
+  background-color: #ffb617;
+}
+
+.wrapper {
+  display: flex;
 }

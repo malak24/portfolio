@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./About.scss";
 
-import ham2 from "../../../assets/ham2.jpg";
+import ham from "../../../assets/ham.jpg";
 import animal1 from "../../../assets/animal1.jpg";
 import animal2 from "../../../assets/animal2.jpg";
 import coffee from "../../../assets/coffee.jpg";
@@ -123,7 +123,7 @@ class About extends Component {
             </div>
 
             <div className="card">
-              <img className="card-img" src={ham2} alt="Placeholder image" />
+              <img className="card-img" src={ham} alt="Placeholder image" />
               <p className="card-content">
                 I have a cute little hamster called Peanut!
               </p>

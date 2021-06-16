@@ -6,8 +6,10 @@ import "./Contact.scss";
 class Contact extends Component {
   render() {
     return (
-      <aside id="sidebar" className="menu">
-      </aside>
+      <div>
+        Contact Contact Contact Contact Contact Contact Contact Contact Contact
+        Contact Contact Contact Contact Contact Contact Contact Contact Contact
+      </div>
     );
   }
 }

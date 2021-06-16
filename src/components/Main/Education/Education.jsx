@@ -6,8 +6,10 @@ import "./Education.scss";
 class Education extends Component {
   render() {
     return (
-      <aside id="sidebar" className="menu">
-      </aside>
+      <div>
+        Education Education Education Education Education Education Education
+        Education Education Education Education Education Education Education
+      </div>
     );
   }
 }

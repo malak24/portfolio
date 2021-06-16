@@ -6,13 +6,21 @@
   margin-top: 1rem;
 }
 
+.menu-list a {
+  height: 2rem;
+}
+
+.menu-list a:hover {
+  background-color: unset;
+  color: #363636;
+}
+
 .items-title:hover {
   background-color: unset;
 }
 
 .list-items {
   display: flex;
-  flex-direction: row;
   height: 4rem;
   font-size: 1rem;
   padding: 0.3rem 0.5rem;
@@ -25,7 +33,7 @@
 }
 
 .items-title {
-  padding-top: 0.8rem;
+  margin-top: 0.6rem;
 }
 
 .list-icons {

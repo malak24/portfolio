@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { NavLink, BrowserRouter as Router } from "react-router-dom";
+import { Link, BrowserRouter as Router } from "react-router-dom";
 
 import "./Sidebar.scss";
 
@@ -14,60 +14,58 @@ import resume from "../../assets/resume.svg";
 class Sidebar extends Component {
   render() {
     return (
-      <Router>
         <aside className="sidebar">
           <ul className="menu-list">
             <li className="list-items">
               <img className="list-icons" src={profile}></img>
-              <NavLink to="/" className="items-title" to="/">
+              <Link to="/" className="items-title">
                 About me
-              </NavLink>
+              </Link>
             </li>
 
             <li className="list-items">
               <img className="list-icons" src={experience}></img>
-              <NavLink to="/experience" className="items-title">
+              <Link to="/experience" className="items-title">
                 Experience
-              </NavLink>
+              </Link>
             </li>
 
             <li className="list-items">
               <img className="list-icons" src={projects}></img>
-              <NavLink to="/projects" className="items-title">
+              <Link to="/projects" className="items-title">
                 Projects
-              </NavLink>
+              </Link>
             </li>
 
             <li className="list-items">
               <img className="list-icons" src={skills}></img>
-              <NavLink to="/skills" className="items-title">
+              <Link to="/skills" className="items-title">
                 Skills
-              </NavLink>
+              </Link>
             </li>
 
             <li className="list-items">
               <img className="list-icons" src={education}></img>
-              <NavLink to="/education" className="items-title">
+              <Link to="/education" className="items-title">
                 Education
-              </NavLink>
+              </Link>
             </li>
 
             <li className="list-items">
               <img className="list-icons" src={contact}></img>
-              <NavLink to="/contact" className="items-title">
+              <Link to="/contact" className="items-title">
                 Contact
-              </NavLink>
+              </Link>
             </li>
 
             <li className="list-items">
               <img className="list-icons" src={resume}></img>
-              <NavLink to="/resume" className="items-title">
+              <Link to="/resume" className="items-title">
                 Resume
-              </NavLink>
+              </Link>
             </li>
           </ul>
         </aside>
-      </Router>
     );
   }
 }

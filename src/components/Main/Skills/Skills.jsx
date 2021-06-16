@@ -6,8 +6,9 @@ import "./Skills.scss";
 class Skills extends Component {
   render() {
     return (
-      <aside id="sidebar" className="menu">
-      </aside>
+      <div>
+        rg erljg elrgj erlj e;rjk erkj tkh tklj tlhm
+      </div>
     );
   }
 }

@@ -6,8 +6,10 @@ import "./Experience.scss";
 class Experience extends Component {
   render() {
     return (
-      <aside id="sidebar" className="menu">
-      </aside>
+      <div>
+        Experience ExperienceExperience Experience Experience Experience
+        Experience Experience Experience Experience Experience Experience
+      </div>
     );
   }
 }

@@ -5,17 +5,6 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import Main from "./components/Main/Main";
 
 class App extends Component {
-  // constructor() {
-  //   super();
-
-  //   this.state = {
-
-  //   };
-  // }
-
-  // componentDidMount() {
-  //   this.getData();
-  // }
 
   render() {
     return (
@@ -25,8 +14,6 @@ class App extends Component {
           <Sidebar />
           <Main />
         </div>
-        {/* <button onClick={()=>console.log(this.state.cards[1].src) }>
-          </button> */}
       </div>
     );
   }

@@ -76,6 +76,21 @@ class Experience extends Component {
 
           <div className="exp-card">
             <header class="card-header">
+              <p class="position">Science Tutor</p>
+              <p class="location">Self-employed</p>
+              <p class="date">Sep 2016 - May 2018</p>
+            </header>
+
+            <ul className="exp-card-content">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+
+          <div className="exp-card">
+            <header class="card-header">
               <p class="position">Freshman Orientation Guide</p>
               <p class="location">University of Angers</p>
               <p class="date">Sep 2016</p>

@@ -1,20 +1,174 @@
 import React, { Component } from "react";
-
 import "./Projects.scss";
-
 
 class Projects extends Component {
   render() {
     return (
-      <div>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
+      <div className="proj-cards-wrapper">
+        <div className="proj-card">
+          <p className="proj-card-header">CodeNotes</p>
+
+          <div className="proj-wrapper">
+            <img
+              className="proj-card-image"
+              src="https://bulma.io/images/placeholders/1280x960.png"
+              alt="Placeholder image"
+            />
+
+            <div class="proj-card-content">
+              CodeNotes is a note taking app that allows users to add, delete
+              and search through notes across multiple folders.
+              <br />
+              <br />
+              Frontend: React, Bootstrap, HTML, CSS, SASS.
+              <br />
+              <br />
+              Backend: Node.js, Express, AWS EC2, AWS S3, AWS Route53, AWS RDS,
+              MySQL.
+              <br />
+              <br />
+              To visit the webapp please click <a>here</a>.
+            </div>
+          </div>
+        </div>
+
+        <div className="proj-card">
+          <p className="proj-card-header">CodeNotes</p>
+
+          <div className="proj-wrapper">
+            <img
+              className="proj-card-image"
+              src="https://bulma.io/images/placeholders/1280x960.png"
+              alt="Placeholder image"
+            />
+
+            <div class="proj-card-content">
+              CodeNotes is a note taking app that allows users to add, delete
+              and search through notes across multiple folders.
+              <br />
+              <br />
+              Frontend: React, Bootstrap, HTML, CSS, SASS.
+              <br />
+              <br />
+              Backend: Node.js, Express, AWS EC2, AWS S3, AWS Route53, AWS RDS,
+              MySQL.
+              <br />
+              <br />
+              To visit the webapp please click <a>here</a>.
+            </div>
+          </div>
+        </div>
+
+        <div className="proj-card">
+          <p className="proj-card-header">CodeNotes</p>
+
+          <div className="proj-wrapper">
+            <img
+              className="proj-card-image"
+              src="https://bulma.io/images/placeholders/1280x960.png"
+              alt="Placeholder image"
+            />
+
+            <div class="proj-card-content">
+              CodeNotes is a note taking app that allows users to add, delete
+              and search through notes across multiple folders.
+              <br />
+              <br />
+              Frontend: React, Bootstrap, HTML, CSS, SASS.
+              <br />
+              <br />
+              Backend: Node.js, Express, AWS EC2, AWS S3, AWS Route53, AWS RDS,
+              MySQL.
+              <br />
+              <br />
+              To visit the webapp please click <a>here</a>.
+            </div>
+          </div>
+        </div>
+
+        <div className="proj-card">
+          <p className="proj-card-header">CodeNotes</p>
+
+          <div className="proj-wrapper">
+            <img
+              className="proj-card-image"
+              src="https://bulma.io/images/placeholders/1280x960.png"
+              alt="Placeholder image"
+            />
+
+            <div class="proj-card-content">
+              CodeNotes is a note taking app that allows users to add, delete
+              and search through notes across multiple folders.
+              <br />
+              <br />
+              Frontend: React, Bootstrap, HTML, CSS, SASS.
+              <br />
+              <br />
+              Backend: Node.js, Express, AWS EC2, AWS S3, AWS Route53, AWS RDS,
+              MySQL.
+              <br />
+              <br />
+              To visit the webapp please click <a>here</a>.
+            </div>
+          </div>
+        </div>
+
+        <div className="proj-card">
+          <p className="proj-card-header">CodeNotes</p>
+
+          <div className="proj-wrapper">
+            <img
+              className="proj-card-image"
+              src="https://bulma.io/images/placeholders/1280x960.png"
+              alt="Placeholder image"
+            />
+
+            <div class="proj-card-content">
+              CodeNotes is a note taking app that allows users to add, delete
+              and search through notes across multiple folders.
+              <br />
+              <br />
+              Frontend: React, Bootstrap, HTML, CSS, SASS.
+              <br />
+              <br />
+              Backend: Node.js, Express, AWS EC2, AWS S3, AWS Route53, AWS RDS,
+              MySQL.
+              <br />
+              <br />
+              To visit the webapp please click <a>here</a>.
+            </div>
+          </div>
+        </div>
+
+        <div className="proj-card">
+          <p className="proj-card-header">CodeNotes</p>
+
+          <div className="proj-wrapper">
+            <img
+              className="proj-card-image"
+              src="https://bulma.io/images/placeholders/1280x960.png"
+              alt="Placeholder image"
+            />
+
+            <div class="proj-card-content">
+              CodeNotes is a note taking app that allows users to add, delete
+              and search through notes across multiple folders.
+              <br />
+              <br />
+              Frontend: React, Bootstrap, HTML, CSS, SASS.
+              <br />
+              <br />
+              Backend: Node.js, Express, AWS EC2, AWS S3, AWS Route53, AWS RDS,
+              MySQL.
+              <br />
+              <br />
+              To visit the webapp please click <a>here</a>.
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
 }
 
 export default Projects;
-

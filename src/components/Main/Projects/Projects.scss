@@ -1,0 +1,35 @@
+.proj-cards-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.proj-card {
+    width: 59.5rem;
+    height: 24rem;
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+}
+
+.proj-wrapper {
+    display: flex;
+}
+
+.proj-card-header {
+    font-weight: 700;
+    height: 3rem;
+    padding: 1rem;
+    box-shadow: 2px -1px 20px 1px rgb(236, 236, 236);
+}
+
+.proj-card-image {
+    height: 20rem;
+    width: 30rem;
+}
+
+.proj-card-content {
+    margin-left: 0.5rem;
+    width: 45.8rem;
+    height: 20rem;
+    background-color: #ffdd92;
+    padding: 1rem;
+}

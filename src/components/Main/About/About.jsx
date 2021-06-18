@@ -23,7 +23,7 @@ class About extends Component {
     return (
       <div>
         <div className="card profile">
-          <img src={me} alt="Placeholder image" />
+          <img src={me} alt='Me'/>
           <div>
             <div>
               <p className="profile-name">
@@ -68,28 +68,28 @@ class About extends Component {
           {/* CONTAINER 1 */}
           <div className="cards-wrapper">
             <div className="card">
-              <img className="card-img" src={france} alt="Placeholder image" />
+              <img className="card-img" src={france} alt='Eiffel tower'/>
               <p className="card-content">
                 I was born in France , and I lived close to Paris
               </p>
             </div>
 
             <div className="card">
-              <img className="card-img" src={toronto} alt="Placeholder image" />
+              <img className="card-img" src={toronto} alt='CN tower'/>
               <p className="card-content">
                 Two years and a half ago I moved to Canada, Toronto
               </p>
             </div>
 
             <div className="card">
-              <img className="card-img" src={book} alt="Placeholder image" />
+              <img className="card-img" alt = 'book'src={book}/>
               <p className="card-content">
                 I believe that reading is to mind what exercise is to the body
               </p>
             </div>
 
             <div className="card">
-              <img className="card-img" src={code} alt="Placeholder image" />
+              <img className="card-img" alt= 'code' src={code}/>
               <p className="card-content">
                 Every time I create a webapp I learn a new technology and
                 implement it to grow my knowledge.
@@ -97,7 +97,7 @@ class About extends Component {
             </div>
 
             <div className="card">
-              <img className="card-img" src={lang} alt="Placeholder image" />
+              <img className="card-img" src={lang} alt ='notebook'/>
               <p className="card-content">
                 I love languages, for now I speak French, English, Arabic,
                 Turkish and I'm learning Spanish
@@ -108,14 +108,14 @@ class About extends Component {
           {/* CONTAINER 2 */}
           <div className="cards-wrapper">
             <div className="card">
-              <img className="card-img" src={archery} alt="Placeholder image" />
+              <img className="card-img" alt = 'Me practicing archery' src={archery}/>
               <p className="card-content">
                 In the long run, you only hit what you aim at!
               </p>
             </div>
 
             <div className="card">
-              <img className="card-img" src={study2} alt="Placeholder image" />
+              <img className="card-img" src={study2} alt='notebook'/>
               <p className="card-content">
                 I always learn new technologies because the more knowledge I
                 have the more valuable I feel{" "}
@@ -123,19 +123,19 @@ class About extends Component {
             </div>
 
             <div className="card">
-              <img className="card-img" src={ham} alt="Placeholder image" />
+              <img className="card-img" alt = 'hamster'src={ham}/>
               <p className="card-content">
                 I have a cute little hamster called Peanut!
               </p>
             </div>
 
             <div className="card">
-              <img className="card-img" src={animal2} alt="Placeholder image" />
+              <img className="card-img" alt = 'parrot' src={animal2}/>
               <p className="card-content">I also LOVE animals</p>
             </div>
 
             <div className="card">
-              <img className="card-img" src={animal1} alt="Placeholder image" />
+              <img className="card-img" alt = 'cat' src={animal1}/>
               <p className="card-content">And since cats are animals ...</p>
             </div>
           </div>
@@ -143,26 +143,26 @@ class About extends Component {
           {/* CONTAINER 3 */}
           <div className="cards-wrapper">
             <div className="card card-small">
-              <img className="card-img" src={coffee} alt="Placeholder image" />
+              <img className="card-img" alt = 'coffee' src={coffee}/>
               <p className="card-content">I am a coffee person</p>
             </div>
 
             <div className="card card-small">
-              <img className="card-img" src={mug1} alt="Placeholder image" />
+              <img className="card-img" alt='mug'src={mug1}/>
               <p className="card-content">
                 I also like collecting meaningful mugs
               </p>
             </div>
 
             <div className="card card-small">
-              <img className="card-img" src={rose2} alt="Placeholder image" />
+              <img className="card-img" alt = 'flowers' src={rose2}/>
               <p className="card-content">
                 When life throws thorns at you, hunt for roses
               </p>
             </div>
 
             <div className="card card-small">
-              <img className="card-img" src={rose3} alt="Placeholder image" />
+              <img className="card-img" alt = 'flowers' src={rose3}/>
               <p className="card-content">
                 Pictures are like snapshots of code, they are a piece of
                 something bigger and tmportant
@@ -170,7 +170,7 @@ class About extends Component {
             </div>
 
             <div className="card card-medium">
-              <img className="card-img" src={plant} alt="Placeholder image" />
+              <img className="card-img" alt = 'plants' src={plant}/>
               <p className="card-content">
                 I love to grow plants froms seeds and watch them growing
               </p>

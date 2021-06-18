@@ -12,7 +12,7 @@ class Projects extends Component {
             <img
               className="proj-card-image"
               src="https://bulma.io/images/placeholders/1280x960.png"
-              alt="Placeholder image"
+              alt="video"
             />
 
             <div class="proj-card-content">
@@ -39,7 +39,7 @@ class Projects extends Component {
             <img
               className="proj-card-image"
               src="https://bulma.io/images/placeholders/1280x960.png"
-              alt="Placeholder image"
+              alt="video"
             />
 
             <div class="proj-card-content">
@@ -66,7 +66,7 @@ class Projects extends Component {
             <img
               className="proj-card-image"
               src="https://bulma.io/images/placeholders/1280x960.png"
-              alt="Placeholder image"
+              alt="video"
             />
 
             <div class="proj-card-content">
@@ -93,7 +93,7 @@ class Projects extends Component {
             <img
               className="proj-card-image"
               src="https://bulma.io/images/placeholders/1280x960.png"
-              alt="Placeholder image"
+              alt="video"
             />
 
             <div class="proj-card-content">
@@ -120,7 +120,7 @@ class Projects extends Component {
             <img
               className="proj-card-image"
               src="https://bulma.io/images/placeholders/1280x960.png"
-              alt="Placeholder image"
+              alt="video"
             />
 
             <div class="proj-card-content">
@@ -147,7 +147,7 @@ class Projects extends Component {
             <img
               className="proj-card-image"
               src="https://bulma.io/images/placeholders/1280x960.png"
-              alt="Placeholder image"
+              alt="video"
             />
 
             <div class="proj-card-content">

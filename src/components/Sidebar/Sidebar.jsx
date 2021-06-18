@@ -14,58 +14,58 @@ import resume from "../../assets/resume.svg";
 class Sidebar extends Component {
   render() {
     return (
-        <aside className="sidebar">
-          <ul className="menu-list">
-            <li className="list-items">
-              <img className="list-icons" src={profile}></img>
-              <Link to="/" className="items-title">
-                About me
-              </Link>
-            </li>
+      <aside className="sidebar">
+        <ul className="menu-list">
+          <li className="list-items">
+            <img className="list-icons" src={profile} alt="icon"></img>
+            <Link to="/" className="items-title">
+              About me
+            </Link>
+          </li>
 
-            <li className="list-items">
-              <img className="list-icons" src={experience}></img>
-              <Link to="/experience" className="items-title">
-                Experience
-              </Link>
-            </li>
+          <li className="list-items">
+            <img className="list-icons" alt="icon" src={experience}></img>
+            <Link to="/experience" className="items-title">
+              Experience
+            </Link>
+          </li>
 
-            <li className="list-items">
-              <img className="list-icons" src={projects}></img>
-              <Link to="/projects" className="items-title">
-                Projects
-              </Link>
-            </li>
+          <li className="list-items">
+            <img className="list-icons" alt="icon" src={projects}></img>
+            <Link to="/projects" className="items-title">
+              Projects
+            </Link>
+          </li>
 
-            <li className="list-items">
-              <img className="list-icons" src={skills}></img>
-              <Link to="/skills" className="items-title">
-                Skills
-              </Link>
-            </li>
+          <li className="list-items">
+            <img className="list-icons" alt="icon" src={skills}></img>
+            <Link to="/skills" className="items-title">
+              Skills
+            </Link>
+          </li>
 
-            <li className="list-items">
-              <img className="list-icons" src={education}></img>
-              <Link to="/education" className="items-title">
-                Education
-              </Link>
-            </li>
+          <li className="list-items">
+            <img className="list-icons" alt="icon" src={education}></img>
+            <Link to="/education" className="items-title">
+              Education
+            </Link>
+          </li>
 
-            <li className="list-items">
-              <img className="list-icons" src={contact}></img>
-              <Link to="/contact" className="items-title">
-                Contact
-              </Link>
-            </li>
+          <li className="list-items">
+            <img className="list-icons" alt="icon" src={contact}></img>
+            <Link to="/contact" className="items-title">
+              Contact
+            </Link>
+          </li>
 
-            <li className="list-items">
-              <img className="list-icons" src={resume}></img>
-              <Link to="/resume" className="items-title">
-                Resume
-              </Link>
-            </li>
-          </ul>
-        </aside>
+          <li className="list-items">
+            <img className="list-icons" alt="icon" src={resume}></img>
+            <Link to="/resume" className="items-title">
+              Resume
+            </Link>
+          </li>
+        </ul>
+      </aside>
     );
   }
 }
